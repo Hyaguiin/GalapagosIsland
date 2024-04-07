@@ -1,25 +1,22 @@
-
-form.forms{
-    text-align: center;
-    width: 100%;
-    margin: 200px;
-   
-}
-
-input{
-    display: block;
-}
-h1.logged{
-    color: rgb(68, 185, 224);
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: large;
-    margin: 1px;
+html,body{
+    height: 100%;
+    }
+    
+    .form-container{
+    max-width: 350px;
+    padding: 1rem;
     
 }
-label.label{
-    text-align: center;
-}
 
-label.text-content{
-    color: black;
+
+form.form-control{
+    padding: 50px;
+    margin: 0 auto;
+    width: 800px;
+    border: solid black 0.0px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2px 3px 4px;
+    
+    
 }

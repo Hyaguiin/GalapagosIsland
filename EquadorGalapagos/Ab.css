@@ -79,7 +79,7 @@ a{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0); backface-visibility: hidden;
     transform: translateZ(0);
-  background:#1B2030 url('https://cdn.gencraft.com/prod/user/73088832-b157-44f6-be37-6ed7df0c449b/b7083466-9f51-4e52-8071-9d2fafb5df90/image/image0_0.jpg?Expires=1712092940&Signature=PFywx4wI-yPWEe4orWSeHYt2fZIYjj7d3ZKkryjJPt3s5L8TSUm5V8hLGS~XfmgdFRhrAWbhSbOJmJCyiR-NSOXpKYq~SMphblKwzX1xWb7yB09zBhpVCXhwvzQ3jJCU5wEBoEaFzVK0ePaQcxxKmVbY8MnyFdWT2uN9qpdDk7i5YrTIYy75gvLMRalIu0Aiu0ueg7bkncRNytAwQXPyJxB2YgIxrKihbuYxtAe2LabiOi5ojdyyIfLQixM0cKLkxjry3GLsNRugeIo~jS9gOAxFUytK3QqL4fn027hT-bMLrY6YkrvJkubB0ZCEww8AwgVtmY4lJKOUPBKz6DvfCw__&Key-Pair-Id=K3RDDB1TZ8BHT8') 
+  background:#1B2030 url('arquipelg.webp') 
   50% 0 no-repeat;
   background-size:100%;
   background-attachment:fixed;
@@ -92,6 +92,9 @@ a{
 }
 .menu{
   display:block;
+  padding: 25px;
+  display: flex;
+  margin: 8px;
   width:40px;
   height:30px;
   border:2px solid #fff;
@@ -143,7 +146,7 @@ a{
   width:50px;
   height:50px;
   border-radius:50%;
-  background:url(https://i.imgur.com/6DLCsZcb.jpg) center no-repeat;
+  background:url('galapagoss.jpg') center no-repeat;
   background-size:cover;
   box-shadow:0 2px 3px rgba(0,0,0,0.3);
   margin-bottom:3px
@@ -184,6 +187,27 @@ button.login{
   border-bottom: #000;
   border-radius: 10px;
   border-color: black;
+}
+.carrossel{
+ 
+    height: 700px;
+    width: 700px;
+    overflow: hidden;
+
+  
+  justify-content: center;
+  margin: 755px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px;
+  min-height: 100vh;
+}
+
+
+.container{
+  display: flex;
+  transition: 0.5s ease-in-out;
+  transform: translateX(0);
+
 }
 
 
