@@ -13,19 +13,3 @@ function login(){
     }
 
 }
-
-const imgs = document.getElementById("img");
-const  img = document.querySelector("#img img");
-
-let id = 0;
-
-function carrossel(){
-    idx++;
-    if(idx > img.lenght - 1){
-        idx = 0;
-    }
-
-    imgs.style.transform = ` translateX(${-idx * 500}) ` ;
-        
-    }
-    setInterval(carrossel, 1800)

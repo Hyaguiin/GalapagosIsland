@@ -135,18 +135,18 @@
     transition: transform 0.3s ease;
   }
 
-  /* Estilos para animação */
-  @keyframes scale-down-center {
+/* Estilos para animação */
+@keyframes scale-up-center {
     0% {
-      transform: scale(1);
+      transform: scale(0.5);
     }
     100% {
-      transform: scale(0.5);
+      transform: scale(1);
     }
   }
 
   .logo:hover {
-    animation: scale-down-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-up-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
   .header {

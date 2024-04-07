@@ -11,9 +11,13 @@ h2{
     line-height: 2;
     color: #7f8c8d;
   }
-  .wrapper{
-    width: 800px;
-    margin: 0 auto;
+  @media only screen and (min-width: 795px){
+    .wrapper{
+      width: 800px;
+      height: 100vh;
+      margin: 0 auto;
+    }
+    
   }
   section{
     padding: 20px;
@@ -100,7 +104,7 @@ a{
   border:2px solid #fff;
   border-radius:3px;
   position:absolute;
-  right:20px;
+  right:35px;
   top:20px;
   text-decoration:none
 }
@@ -209,6 +213,15 @@ button.login{
   transform: translateX(0);
 
 }
+
+.carousel-item slide{
+ margin: auto 0;
+
+}
+
+
+
+
 
 
 
