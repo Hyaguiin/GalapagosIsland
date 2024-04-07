@@ -1,0 +1,25 @@
+
+form.forms{
+    text-align: center;
+    width: 100%;
+    margin: 200px;
+   
+}
+
+input{
+    display: block;
+}
+h1.logged{
+    color: rgb(68, 185, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    margin: 1px;
+    
+}
+label.label{
+    text-align: center;
+}
+
+label.text-content{
+    color: black;
+}
